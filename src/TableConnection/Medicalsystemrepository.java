@@ -10,14 +10,11 @@ import java.sql.SQLException;
 
 public class Medicalsystemrepository {
 
-    private final String url =
-            "jdbc:mysql://localhost:3306/medicalsystem";
+     String url ="jdbc:mysql://localhost:3306/medicalsystem";
 
-    private final String username =
-            "root";
+     String username ="root";
 
-    private final String password =
-            "YOUR_MYSQL_PASSWORD";
+     String password ="nihal@raj#2026!";
 
 
     // =========================================================
@@ -190,13 +187,7 @@ public class Medicalsystemrepository {
                         "Delete operation successful"
                 );
 
-            } else {
-
-                System.out.println(
-                        "No role found with role_id: "
-                                + role_id
-                );
-            }
+            } 
 
         } catch (SQLException e) {
 
